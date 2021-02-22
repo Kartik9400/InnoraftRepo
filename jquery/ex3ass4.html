@@ -1,0 +1,29 @@
+<html>
+	<head> 
+		<title>HTML code of html forms</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		function myfunction(){
+			if($("#first").val() == '' || $("#last").val() == ''){
+				alert("Please fill all the fields");
+			}
+		}
+	</script>
+	</head>
+	<body>
+		<form>
+			First name:
+			<br>
+			<input type="text" name="first name" id="first">
+			<br>
+			Last name:
+			<br>
+			<input type="text" name="last name" id="last">
+			<br>
+			<br>
+			<button onclick="myfunction()">Submit</button>
+		</form>
+	</body>
+</html>
+
+

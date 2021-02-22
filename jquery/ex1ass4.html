@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>jquery ass 1</title>
+		<style>
+			
+		</style>	
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#redbox").css({
+					"width":"50px",
+					"height":"50px",
+					"background-color":"red"
+				});
+				$("button").click(function(){
+			    	$("#redbox").hide();
+			  	});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="redbox"></div>
+		<p> Hide the red box on button click</p>
+		<button>click me</button>
+	</body>
+</html>

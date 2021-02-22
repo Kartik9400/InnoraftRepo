@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquery ex2</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#container").css({
+				"margin": "auto",
+				"max-width": "1200px",
+				"color": "black",
+				"text-align":"center"
+			});
+			
+			$("#header,box1").css({
+				"padding": "5px",
+				"text-align": "center",
+				"background-color": "#e5eecc",
+				"border": "solid 1px #c3c3c3"
+			});
+			
+			
+			$("#box1").css({
+				"padding": "50px",
+ 				"display": "none",
+ 				"background-color" : "skyblue"	
+			});
+			
+			$("#header").click(function(){
+				$("#box1").slideDown("slow");
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			Click me to slide down panel
+		</div>
+		<div id="box1">
+			<!-- <div id="box11"> -->
+				Hello World!
+			<!-- </div>	 -->
+		</div>
+	</div>
+</body>
+</html>
