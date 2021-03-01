@@ -1,0 +1,1081 @@
+<html>
+<head>
+	<title>Exercise 2 assignment 3</title>
+	<link rel="stylesheet" type="text/css"href="arrow.css" />
+	<style>
+
+		.contnt{
+			max-width: 1100px;
+			margin: auto;
+		}
+		.pad{
+			padding-top: 70px;
+			padding-bottom: 70px;
+		}
+		.blockimg{
+			border-radius: 100px;
+			padding: 16px;
+			background: darkslateblue;
+		}
+
+		#header{
+			/*position: relative;
+			/*top: 0;
+			left: 0;
+			right: 0;*/
+			box-sizing: border-box;
+			float: left;
+			width: 100%;
+			background: ghostwhite;
+			/*border: 1px solid black;*/
+		}
+		#mail_img{
+			float: right;
+
+		}
+		#subheader{
+			/*position: absolute;
+			bottom: 18%;
+			right: 13%;*/
+			/*border: 1px solid red;*/
+			float: right;
+
+		}
+		#subheader li{
+			display: inline;
+		}
+		#subheader a{
+			/*float: left;*/
+			/*text-decoration: none;*/
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			color: black;
+			font-size: 17px;
+
+		}
+		#subheader a:hover{
+			background: aliceblue;
+		}
+		#subheader a:focus{
+			background: aliceblue;
+		}
+
+		
+
+		#block1{
+			/*position: relative;
+			/*top: 10%;
+			left: 0;
+			right: 0;*/
+			float: left;
+			box-sizing: border-box;
+			width: 100%;
+			/*height: 80%;*/
+			background: url('https://drive.google.com/thumbnail?id=1cQr_WFk5Nfar2L5xZcuHsdcmB3-WkcHC') no-repeat ;
+			/*border: 1px solid red;*/
+			background-size: cover;
+			
+			
+			/*z-index: 11;*/
+			
+		}
+		#block11{
+			/*content:"";
+			position: absolute;
+			left: 0;
+			right: 0;*/
+			box-sizing: border-box;
+			border: 1px solid darkslateblue;
+			font: left;
+			width: 100%;
+			/*border: 1px solid black;*/
+			background-color: darkslateblue;
+			/*background-size: cover;*/
+			opacity: .8;
+
+
+			background-size: cover;
+			text-align: center;
+			padding: 200px 400px; 
+			color: white;
+			/*z-index: -1;*/
+			
+		}
+		#block1 button{
+			border: 1px solid white;
+			padding: 7px;
+			text-decoration: none;
+			border-radius: 100px;
+			text-transform: uppercase;
+			background-color: darkslateblue;
+			color: white;
+		}
+		#block1 button:hover, 
+		#block1 button:focus{
+			background-color: gold;
+			opacity: .8;
+		}
+
+		#block2{
+			/*position: relative;
+			/*top: 70%;
+			left: 0;
+			right: 0;*/
+			box-sizing: border-box;
+			float: left;
+			width: 100%;
+			background: ghostwhite;
+			
+
+		}
+		#block21{
+			/*margin-left:10%;
+			margin-top: 10%;*/
+			width: 43.5%;
+			/*height: 60%;*/
+			float: left;
+			/*border: 1px solid black;*/
+			word-wrap: break-word;
+
+		}
+		#block22{
+			/*margin-right: 10%;
+			margin-top: 10%;*/ 
+			float: right;
+			width:53.5%;
+
+			/*position: relative;*/
+			/*height: 60%;*/
+			/*border:1px solid black;*/
+		}
+		/*#block22 img{
+			position: absolute;
+			top: auto;
+			bottom: auto;
+		}*/
+		#block3{
+			/*position: relative;
+			/*top: 120%;
+			left: 0;
+			right: 0;*/
+			box-sizing: border-box;
+			float: left;
+			width: 100%;
+			/*height: 100%;*/
+			background: url('https://drive.google.com/thumbnail?id=1yVtk5c9fGev4IqAeJw567rUVoUTvVk0M') no-repeat;
+			/*background-size: 100% 100%;*/
+			background-size: cover;
+			color: white;
+		}
+		#block33{
+			/*content:"";
+			position: absolute;
+			left: 0;
+			right: 0;*/
+			width: 100%;
+			/*height: 100%;*/
+			float: left;
+			box-sizing: border-box;
+			border: 1px solid darkslateblue;
+			background-color: darkslateblue;
+			/*background-size: cover;*/
+			opacity: .8;
+			padding: 30px;
+			text-align: center;
+			/*z-index: -1;*/
+			
+		}
+		
+		#block331{
+			display: block;
+		}
+		.blk331cls{
+			padding: 20px 0;
+			text-align: center;
+			background-color: ;
+			/*border: 1px solid black;*/
+			box-sizing: border-box;
+			display: inline-block;
+			width: 30%;
+
+		}
+		
+
+		#block331 button{ 
+			/*border: 1px solid red;*/
+			padding: 10px;
+			border-radius: 50px;
+			text-decoration: none;
+			background-color: darkslateblue;
+			color: white;
+			border-color: darkslateblue;
+			/*box-sizing: border-box;*/
+		}
+		#block331 button:hover,
+		#block331 button:focus{
+			background-color: gold;
+		}
+		/*#block33grid{
+			display: grid;
+			grid-template-columns: auto auto auto;
+			grid-template-rows: auto;
+			grid-gap: 10px;
+			border: 1px solid black;
+		}
+		#block33item1{
+			
+		}
+		#block33item2{
+		}
+		#block33item3{
+		}*/		
+
+		#block4{
+			/*position: relative;
+			/*top: 0;
+			left: 0;
+			right: 0;*/
+			box-sizing: border-box;
+			float: left;
+			width: 100%;
+			background: ghostwhite;
+			text-align: 
+		}
+		#block4link{
+			margin: 30px 0;
+		}
+		#block4 ul{
+			padding: 0;
+		}
+		#block4link li{
+			display: inline;
+			/*margin: 30px 0;*/
+		}
+		#block4link a{
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			color: black;
+			/*font-size: 17px;*/
+		}
+		#block4link a:hover,
+		#block4link a:focus{
+			background-color: darkgrey;
+		}
+
+		#block4grid{
+			display: grid;
+			grid-template-columns: 32% 32% 32%;
+			/*grid-template-rows: 32% 32% 32%;*/
+			grid-column-gap: 2%;
+			grid-row-gap: 15px;
+			/*border: 1px solid black;*/
+			box-sizing: border-box;
+
+		}
+		#block4item1{
+			/*background: url("https://drive.google.com/thumbnail?id=1uyGK4xDjvS1GyST8VvQx8c2-n5n3226-") no-repeat;*/
+			/*border: 1px solid black;*/
+			/*box-sizing: border-box;*/
+			grid-row: 1/span 2;
+			position: relative;
+			/*background-size: cover;*/
+		}
+		#block4item6{
+			/*background: url() no-repeat;*/
+			/*border: 1px solid black;*/
+			/*box-sizing: border-box;*/
+			grid-area: 2 / 3/ span 2/ span 1;
+			/*background-size: cover;*/
+		}
+		.block44{
+			position: relative;
+		}
+		.middle{
+			opacity: 0;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  -ms-transform: translate(-50%, -50%);
+		  text-align: center;
+		  /*padding: 10px;*/
+		  height: 90%;
+		  width: 90%;
+		  background-color: rgba(0, 102, 204, 0.2);
+		  /*margin: 10px;*/
+		  /*padding: 10px;*/
+		  /*background-color: blue;
+		  opacity: 0.1;*/
+
+		}
+		.block44:hover img{
+			opacity: 0.3;
+		}
+		.block44:hover .middle{
+			opacity: 1;
+
+		}
+		.text{
+			/*position: absolute;
+			top:50%;*/
+			/*background-color: #4CAF50;*/
+			margin:auto;
+			position: relative;
+			top: 50%;
+			
+			  color: white;
+			  font-size: 16px;
+			  /*padding: 16px 32px;*/
+		}
+		
+		/*#block4item2,
+		#block4item3,
+		#block4item4,
+		#block4item5,
+		#block4item7{
+			background: url() no-repeat;
+			border: 1px solid black;
+			box-sizing: border-box;
+			background-size: cover;
+		}*/
+
+
+		#block5{
+			/*position: relative;
+			/*top: 120%;
+			left: 0;
+			right: 0;*/
+			box-sizing: border-box;
+			float: left;
+			width: 100%;
+			background: url('https://drive.google.com/thumbnail?id=1KX32PHAaybRzaLEog624h2WP99o9t3_7') no-repeat;
+			background-size: cover;
+
+		}
+		#block55{
+			/*content:"";
+			position: absolute;
+			left: 0;
+			right: 0;*/
+			width: 100%;
+			/*height: 100%;*/
+			box-sizing: border-box;
+			border: 1px solid darkslateblue;
+			background-color: darkslateblue;
+			/*background-size: cover;*/
+			opacity: .8;
+			/*padding: 30px;*/
+			/*z-index: -1;*/
+			text-align: center;
+		}
+
+		.block55num:hover,
+		.block55num:focus{
+			color: gold;
+		}
+		.block551{
+			display: inline-block;
+			width: 24%;
+		}
+		/*#block55grid{
+			display: grid;
+			grid-template-columns: auto auto auto auto;
+			grid-gap: 10px;
+			border: 1px solid black;
+		}
+		#block55item1,
+		#block55item2,
+		#block55item3,
+		#block55item4{
+			border: 1px solid black;
+			text-align: center;
+			color: black;
+			box-sizing: border-box;
+		}*/
+
+		#block6{
+			/*position: relative;
+			/*top: 120%;
+			left: 0;
+			right: 0;*/
+			box-sizing: border-box;
+			float: left;
+			width: 100%;
+			background: ghostwhite;
+			/*padding: 30px;*/
+			text-align: center;
+			font-size: small;
+			/*border: 1px solid black;*/
+		}
+		.block611{
+			display:inline-block;
+			width: 32%;
+			background-color: white;
+			padding-bottom: 25px;
+			margin-top: 30px;
+			margin-right: 10px;
+		}
+		.block61link{
+			border: 1px solid skyblue;
+			padding: 10px;
+			text-decoration: none;
+			border-radius: 100px;
+			text-transform: uppercase;
+			font-size: x-small;
+			color: skyblue;
+			box-sizing: border-box;
+			/*margin: 10px;*/
+		}
+		.block61link:hover,
+		.block61link:focus{
+			background-color: gold; 
+		}
+		/*#block61grid{
+			display: grid;
+			grid-template-columns: auto auto auto;
+			grid-template-rows: auto;
+			grid-gap: 10px;
+			border: 1px solid black;
+			box-sizing: border-box;
+		}
+		#block61item1,
+		#block61item2,
+		#block61item3{
+			background-color: white;
+			border: 1px solid black;
+			padding: 10px;
+			text-align: center;
+			color: black;
+			box-sizing: border-box;
+			
+		}*/
+
+		
+
+		#block7{
+			/*position: relative;
+			/*top: 120%;
+			left: 0;
+			right: 0;*/
+			box-sizing: border-box;
+			float: left;
+			width: 100%;
+			background: url('https://drive.google.com/thumbnail?id=1bFt_mhg_MmQ76ZOXUGBC_e6selgiqE7d') no-repeat;
+			background-size: cover;
+			
+			
+			
+		}
+		#block77{
+			/*content:"";
+			position: absolute;
+			left: 0;
+			right: 0;*/
+			width: 100%;
+			background-color: darkslateblue;
+			/*background-size: cover;*/
+			opacity: .8;
+			color: white;
+
+			/*float: left;*/
+			/*box-sizing: border-box;*/
+			/*float: left;*/
+			/*border: 1px solid darkslateblue;*/
+			
+			/*padding: 30px;*/
+			/*z-index: -1;*/
+			/*text-align: left;*/
+			/*color: white;*/
+			
+		}
+		.block771{
+			display: inline-block;
+			width: 45%;
+			text-align: center;
+			margin-top: 20px;
+			margin-right: 10px;
+		}
+		.block772{
+			display: inline-block;
+
+		}
+		.block772 a{
+			padding: 16px 14px;
+			box-sizing: border-box;
+			background-color: darkslateblue;
+		}
+		.block772 a:hover,
+		.block772 a:focus{
+			background-color: gold;
+		}
+		/*#block77grid{
+			display: grid;
+			grid-template-columns: auto auto;
+			grid-template-rows: auto;
+			grid-gap: 10px;
+			float: left;
+			border: 1px solid black;
+			box-sizing: border-box;
+		}
+		#block77item1{
+			border: 1px solid black;
+			padding: 20px;
+			text-align: center;
+			color: white;
+			box-sizing: border-box;
+			overflow: auto; 
+		}
+		#block77item2{
+			border: 1px solid black;
+			padding: 20px;
+			text-align: center;
+			color: white;
+			box-sizing: border-box;
+			overflow: auto; 
+		}*/
+		#block8{
+			/*position: relative;
+			/*top: 120%;
+			left: 0;
+			right: 0;*/
+			box-sizing: border-box;
+			float: left;
+			width: 100%;
+			/*padding: 30px;*/
+			background: ghostwhite;
+		}
+		.block81{
+			display: inline-block;
+			width:30%;
+			background-color: white;
+			margin-right: 10px;
+		}
+		.block811{
+			padding: 10px;
+		}
+		.block811cntnt{
+			height: 50px;
+			overflow: hidden;
+		}
+		.block811 button{
+			padding: 10px;
+			font-size: 17px;
+			border-radius: 100px;
+			color: skyblue;
+			background-color: white;
+			border-color: skyblue;
+		}
+		.block811 button:hover,
+		.block811 button:focus{
+			background-color: gold;
+		}
+		/*#block8grid{
+			display: grid;
+			grid-template-columns: auto auto auto;
+			grid-template-rows: 250px;
+			grid-gap: 10px;
+			border: 1px solid black;
+		}
+		#block8item1,
+		#block8item2,
+		#block8item3{
+			background-color: white;
+			border: 1px solid black;
+			padding: 20px;
+			text-align: left;
+			color: black;
+			box-sizing: border-box;
+			overflow: hidden;
+		}
+		#block8item4,
+		#block8item5,
+		#block8item6{
+			background-color: white;
+			border: 1px solid black;
+			padding: 20px;
+			text-align: center;
+			color: black;
+			box-sizing: border-box;
+			overflow: hidden;
+		}*/
+		#footer{
+			/*position: relative;
+			/*top: 120%;
+			left: 0;
+			right: 0;*/
+			box-sizing: border-box;
+			float: left;
+			width: 100%;
+			background: darkslateblue;
+			color: white;
+		}
+		
+		#footerctnt{
+			margin: 20px;
+			/*position: relative;*/
+		}
+		
+		.footeritem{
+			/*position: absolute;
+			top: 0;*/
+			display: inline-grid;
+			width: 24%;
+			/*padding-top: 100%;
+    margin-top: -100%;*/
+		}
+
+		.footeritem input[type = text]{
+			padding: 6px;
+			font-size: 17px;
+			border: 1px solid grey;
+			  float: left;
+			  width: 70%;
+			  background: #f1f1f1;
+			  border-bottom-left-radius: 100px;
+			  border-top-left-radius: 100px;
+		}
+
+		.footeritem button{
+			float: left;
+			  width: 30%;
+			  height: 34px;
+			  /*padding: 10px;
+			  background: #2196F3;
+			  color: white;
+			  font-size: 17px;*/
+			  background: gold;
+			  border: 1px solid grey;
+			  border-left: none;
+			  cursor: pointer;
+			  border-bottom-right-radius: 100px;
+			  border-top-right-radius: 100px;
+		}
+
+		.footeritem button:after{
+			content: "";
+  clear: both;
+  display: table;
+		}
+		/*#footergrid{
+			display: grid;
+			grid-template-columns: auto auto auto auto;
+			
+			grid-gap: 10px;
+			border: 1px solid black;
+		}
+		#footeritem1,
+		#footeritem2,
+		#footeritem3,
+		#footeritem4{
+			border: 1px solid black;
+			text-align: left;
+			font-size: small;
+			color:white ;
+			box-sizing: border-box;
+			overflow: auto;
+			padding:5px;
+		}*/
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div class="contnt">
+			<a href="#header">
+				<img src="https://drive.google.com/thumbnail?id=16zDIFBUUGO3YvRv7QuG3EIFitaJoYaQZ" height="49px">
+			</a>
+			<!-- <div style="margin-right:10%"> -->
+			<a href="#block7">
+				<img src="https://drive.google.com/thumbnail?id=1vgznPmKC-bmfL_v1KZeXkgjJykSOvyC4" id="mail_img">
+			</a>
+			<ul id="subheader">	
+
+				<li><a href="#block1">HOME</a></li>   
+				<li><a href="#block2">ABOUT</a></li>
+				<li><a href="#block3">SERVICES</a></li>
+				<li><a href="#block4">PORTFOLIO</a></li>
+				<li><a href="#block5">PRICE</a></li>
+				<li><a href="#block6">BLOG <img src="https://drive.google.com/thumbnail?id=1GATV2jyQ8HmXjDZBBQoNZ4mz3UwVIAIg" width="10px"></a></li>
+			</ul>
+			<!-- </div> -->
+		</div>
+		
+		
+			
+	</div>
+	<div id="block1">
+		<div id="block11">
+			<h1>We Will <span style="font-weight: 1000">Make</span> Your <span style="font-weight: 1000">Business</span>
+			Great Again</h1>
+			<p style="font-size: x-small; margin-bottom:50px">Qnsectetur adipisicing elit, Impedit repudiandae
+				nisi <br>maiores dolore dolor.</p>
+			<div>
+				<button>Contact us</button>
+			<button>Discover now</button>
+			</div>
+			
+			<br>
+			<a style="position: relative; top: 100px;" href="#block2"><img src="https://drive.google.com/thumbnail?id=1LR7OA2V1tfDERBixRDuVQGU4eEncQ2NE" width="12px"></a>
+		</div>
+	</div>
+	<div id="block2" class=" pad">
+		<div class="contnt">
+			<div id="block21">
+				<h1>Hello <span style="font-weight:1000">World</span></h1>
+				<p style="font-size: small">Eeligendi autem consequatur cupiditate deleniti officiis aliquid repellat provident ut rerum excepturi, ex iure veritatis, Deleniti numquam quis voluptate tempora. Aliquam voluptatibus placeat, malores!</p>
+				<img src="https://drive.google.com/thumbnail?id=1ACm7pMz_UcxRY2SBu0M3k0hug9Nenm3A" height="25px"> &nbsp; Exploring your area of activity<br><br>
+				<img src="https://drive.google.com/thumbnail?id=1owTVMrSClEua4lbyMOHPXd_mkXhQ7_1x" height="25px">   &nbsp; Competitive analysis<br><br>
+				<img src="https://drive.google.com/thumbnail?id=1DnNne64D7KJSpYgWp1A4RcVONrhuS2EC" height="25px"> &nbsp; Do the work in time
+			</div>
+			<div id="block22">
+				<img src='https://drive.google.com/thumbnail?id=1bFt_mhg_MmQ76ZOXUGBC_e6selgiqE7d' width="100%" style="margin-top: auto;">
+			</div>
+		</div>
+		
+	</div>
+	<div id="block3" >
+		
+		<div id="block33" class="pad">
+			<div class="contnt" id="block331">
+				<h1>Some of our <span style="font-weight: 1000">best services</span><br> to solve your problems</h1>
+				<!-- <div id="block33grid"> -->
+				<div  class="blk331cls">
+					<!-- <a href=""> -->
+					<!-- <svg> -->
+					<div>
+					<img src="images/icons/i-message.svg" height="48px">
+				</div>
+					<!-- </svg> -->
+				<!-- </a> -->
+					<p>Digital Marketing</p>
+					<p style="font-size: small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cupiditate pariatur natus, laboriosam!</p>
+				</div>
+				<div  class="blk331cls">
+					<div>
+					<img src="images/icons/i-feature.svg" height="48px">
+					</div>
+					<p>Web Develoopment</p>
+					<p style="font-size: small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cupiditate pariatur natus, laboriosam!</p>
+				</div>
+				<div class="blk331cls">
+					<div>
+					<img src="images/icons/i-sketch.svg" height="48px">
+					</div>
+					<p>UI/UX Design</p>
+					<p style="font-size: small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cupiditate pariatur natus, laboriosam!</p>
+				</div>
+				<!-- </div> -->
+				<button>Order A Service</button>
+			</div>
+		</div>
+	</div>
+	<div id="block4" class="pad">
+		<div class="contnt">
+		<p style="font-size: xx-large"><b>Good design</b> is obvious<br>
+		Great design is transparent.</p>
+		<p style="font-size: small"><b>About Joe &copy</b> graphic designer, digital 
+			literacy techer</p>
+		<ul id="block4link">
+			<a href="" id="">SHOW ALL</a>   
+			<a href="" id="">DESIGN</a>
+			<a href="" id="">CODE</a>   
+			<a href="" id="">ART</a>	
+		</ul>
+		
+		<div id="block4grid">
+			<div class="block44" id="block4item1">
+				<img src="https://drive.google.com/thumbnail?id=1uyGK4xDjvS1GyST8VvQx8c2-n5n3226-" width="100%" height="100%">
+				<div class="middle">
+					<!-- <div style="padding:10px;background-color: "> -->
+					<div class="text"><span style="background-color: gold; border-radius: 1000px; padding: 5px">+</span><br>Project title<br>Code</div>
+				<!-- </div> -->
+				</div>
+			</div>
+			<div class="block44">
+				<img src="https://drive.google.com/thumbnail?id=1lDiwx3Gxrnqj0BmxlcOfptGlTVkQJCRJ"  width="100%">
+				<div class="middle">
+					<div class="text"><span style="background-color: gold; border-radius: 100px; padding: 3px">+</span><br>Project title<br>Code</div>
+				</div>
+			</div>
+			<div class="block44">
+				<img src="https://drive.google.com/thumbnail?id=1lDiwx3Gxrnqj0BmxlcOfptGlTVkQJCRJ"  width="100%">
+				<div class="middle">
+					<div class="text"><span style="background-color: gold; border-radius: 100px; padding: 3px">+</span><br>Project title<br>Code</div>
+				</div>
+			</div>
+			<div class="block44">
+				<img src="https://drive.google.com/thumbnail?id=1lDiwx3Gxrnqj0BmxlcOfptGlTVkQJCRJ"  width="100%">
+				<div class="middle">
+					<div class="text"><span style="background-color: gold; border-radius: 100px; padding: 3px">+</span><br>Project title<br>Code</div>
+				</div>
+			</div>
+			<div class="block44">
+				<img src="https://drive.google.com/thumbnail?id=1lDiwx3Gxrnqj0BmxlcOfptGlTVkQJCRJ"  width="100%">
+				<div class="middle">
+					<div class="text"><span style="background-color: gold; border-radius: 100px; padding: 3px">+</span><br>Project title<br>Code</div>
+				</div>
+			</div>
+			<div class="block44" id="block4item6">
+				<img src="https://drive.google.com/thumbnail?id=1uyGK4xDjvS1GyST8VvQx8c2-n5n3226-"  width="100%" height="100%">
+				<div class="middle">
+					<div class="text"><span style="background-color: gold; border-radius: 100px; padding: 3px">+</span><br>Project title<br>Code</div>
+				</div>
+			</div>
+			<div class="block44">
+				<img src="https://drive.google.com/thumbnail?id=1lDiwx3Gxrnqj0BmxlcOfptGlTVkQJCRJ" width="100%">
+				<div class="middle">
+					<div class="text"><span style="background-color: gold; border-radius: 100px; padding: 3px">+</span><br>Project title<br>Code</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div id="block5">
+		<div id="block55" class="pad">
+			<div class="contnt">
+			<!-- <div id="block55grid"> -->
+				<!-- <div id="block55item1"> -->
+				<div class="block551">
+					<div>
+					<img src="images/icons/i-team.svg"  height="48px">
+					</div>
+					<div class="block55num">
+						<p>Unique customers:</p>
+						<h2>3519+</h2>
+					</div>
+				</div>
+					
+				<!-- </div> -->
+				<!-- <div id="block55item2"> -->
+				<div class="block551">
+					<div>
+					<img src="images/icons/i-shield.svg"  height="48px">
+					</div>
+					<div class="block55num">
+						<p>Completed projects:</p>
+						<h2>3519+</h2>
+					</div>
+				</div>
+					
+				<!-- </div> -->
+				<!-- <div id="block55item3"> -->
+				<div class="block551">
+					<div>
+					<img src="images/icons/i-diamond.svg"  height="48px">
+					</div>
+					<div class="block55num">
+						<p>Happy users:</p>
+						<h2>3519+</h2>
+					</div>
+				</div>	
+					
+				<!-- </div> -->
+				<!-- <div id="block55item4"> -->
+				<div class="block551">
+					<div>
+					<img src="images/icons/i-trophy.svg" height="48px">
+					</div>
+					<div class="block55num">
+						<p>Honor and awards:</p>
+						<h2>3519+</h2>
+					</div>
+				</div>	
+					
+				<!-- </div> -->
+			<!-- </div> -->
+			</div>
+		</div>
+	</div>
+	<div id="block6">
+		<div id="block61" class="pad">
+			<div class="contnt">
+			<p style="font-size: xx-large;">Flexible <b>Pricing</b> Plans</p>
+			<p>Dolor sit Mollitia harum  ea ut eaque velit</p>
+			<!-- <div id="block61grid"> -->
+				<!-- <div id="block61item1"> -->
+				<div class="block611">
+					<p style="font-size: x-large;">Trial version</p>
+					<p>Lorem ipsum dolor sit amet, consectetur<br>
+					adipisicing elit</p>
+					<p style="font-size: x-large;height:20px">free</p>
+					<p>500gb drive space</p>
+					<p>Unlimited messages</p>
+					<p style="color:transparent;">Free Email address</p>
+					<p style="color:transparent;">Friendly support</p>
+					<a href="" class="block61link">Download</a>
+				</div>
+				<!-- </div> -->
+				<!-- <div id="block61item2"> -->
+				<div class="block611">
+					<p style="font-size: x-large;">Regular</p>
+					<p>Lorem ipsum dolor sit amet, consectetur<br>
+					adipisicing elit</p>
+					<p style="font-size: x-large;height:20px"><sub>$</sub> 19/<sub>Month</sub></p>
+					<p >500gb drive space</p>
+					<p>Unlimited messages</p>
+					<p>Free Email address</p>
+					<p style="color:transparent;">Friendly support</p>
+					<a href="" class="block61link">Purchase</a>
+				</div>
+				<!-- </div> -->
+				<!-- <div id="block61item3"> -->
+				<div class="block611">
+					<p style="font-size: x-large;">Extended</p>
+					<p>Lorem ipsum dolor sit amet, consectetur<br>
+					adipisicing elit</p>
+					<p style="font-size: x-large;height:20px"><sub>$</sub> 29/<sub>Month</sub></p>
+					<p>500gb drive space</p>
+					<p>Unlimited messages</p>
+					<p>Free Email address</p>
+					<p>Friendly support</p>
+					<a href="" class="block61link">Purchase</a>
+				</div>
+				<!-- </div> -->
+			</div>
+		<!-- </div> -->
+		</div>
+	</div>
+	<div id="block7">
+		<div id="block77" class="pad">
+			<div class="contnt" style="position:relative;">
+				<div class="block772">
+					<h1>Testimonals About Us <br><span style="font-size: small">Dolor sit Mollitia harum ea ut eaque velit.</span></h1>
+				</div>
+				<div class="block772" style="position:absolute;right:0">
+					<a href=""><img src="https://drive.google.com/thumbnail?id=12LRW2YU0KJsUl62K8ayPFvzjc2FQEK29" height ="15px"></a>
+					<a href=""><img src="https://drive.google.com/thumbnail?id=11UJxxsNDhDK4y_voctLESoJrJ79gJvQU" height ="15px"></a>
+
+					
+				</div>
+				<br>
+			<!-- <button><i class="arrow right"></i></button>
+					<button><i class="arrow left"></i></button> -->
+			<!-- <div id="block77grid"> -->
+				<!-- <div id="block77item1"> -->
+				<div class="block771">
+					<img src="https://drive.google.com/thumbnail?id=1Ti7D4cTL9hP0CGi0W0CCfyFoqJwOFrAb" height="10%">
+					<p>Robert Newmen</p>
+					<p>Microsoft Corpoeation</p>
+					<p>Dolor sit amet, consectetur adipisicing elit. Dolor sit Mollitia harum ea ut eaque velit. Ex rem provident nobis at deserunt, dolores blanditiis vero aut. Fuga ab quisquam aliquid eius vitae! Dolor sit Mollitia harum ea ut eaque velit.
+					</p>
+				</div>
+				<!-- <div id="block77item2"> -->
+				<div class="block771">
+					<img src="https://drive.google.com/thumbnail?id=1ctf6wIcMzVYMqmqIzT7cNaAPSmTmXDrd" height="10%">
+					<p>Robert Newmen</p>
+					<p>Microsoft Corpoeation</p>
+					<p>Dolor sit amet, consectetur adipisicing elit. Dolor sit Mollitia harum ea ut eaque velit. Ex rem provident nobis at deserunt, dolores blanditiis vero aut. Fuga ab quisquam aliquid eius vitae! Dolor sit Mollitia harum ea ut eaque velit.
+					</p>
+				</div>
+			</div>
+		<!-- </div> -->
+		</div>
+	</div>
+	<div id="block8" class="pad">
+		<div class="contnt">
+		<h1>Latest <span style="font-weight: 1000">blog</span> posts</h1>
+		<p>Dolor sit Mollitia harum ea ut eaque velit.</p>
+		<!-- <div id="block8grid"> -->
+			<!-- <div id="block8item1"> -->
+				<div class="block81">
+					<img src="https://drive.google.com/thumbnail?id=11-oNc5v5_zrHQ1nrv-jM9MrNo3v34F7-" width="100%">
+					<div class="block811">
+					<h4> Fuga ab quisquam non reiciendis aliquid euis vitae.</h4>
+					<div class="block811cntnt">
+					DElectus culpa in consequuntur nemo, non reprehendent repellat deleniti sunt.
+					</div><br>
+					<button>Read more</button>
+				</div>
+				</div>
+				
+			<!-- </div> -->
+			<!-- <div id="block8item2"> -->
+				<div class="block81">
+					<img src="https://drive.google.com/thumbnail?id=11-oNc5v5_zrHQ1nrv-jM9MrNo3v34F7-" width="100%">
+					<div class="block811">
+					<h4> Fuga ab quisquam non reiciendis aliquid euis vitae.</h4>
+					<div class="block811cntnt">
+					DElectus culpa in consequuntur nemo, non reprehendent repellat deleniti sunt. DElectus culpa in consequuntur nemo, non reprehendent repellat deleniti sunt.
+					</div><br>
+					<button>Read more</button>
+				</div>
+				</div>
+				
+			<!-- </div> -->
+			<!-- <div id="block8item3"> -->
+				<div class="block81">
+					<img src="https://drive.google.com/thumbnail?id=11-oNc5v5_zrHQ1nrv-jM9MrNo3v34F7-" width="100%">
+					<div class="block811">
+					<h4> Fuga ab quisquam non reiciendis aliquid euis vitae.</h4>
+					<div class="block811cntnt">
+					DElectus culpa in consequuntur nemo, non reprehendent repellat deleniti sunt. DElectus culpa in consequuntur nemo, non reprehendent repellat deleniti sunt. DElectus culpa in consequuntur nemo, non reprehendent repellat deleniti sunt.
+					</div><br>
+					<button>Read more</button>
+				</div>
+				</div>
+				
+				
+			<!-- </div> -->
+			<!-- <div id="block8item4">
+				<form action="#block8item1">
+					<input type="submit" value="Read More">
+				</form>
+			</div>
+			<div id="block8item5">
+				<form action="#block8item2{grid-template-rows:auto}">
+					<input type="submit" value="Read More">
+				</form>
+			</div>
+			<div id="block8item6">
+				<form action="">
+					<input type="submit" value="Read More">
+				</form>
+			</div> -->
+		</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="contnt">
+		<img src="https://drive.google.com/thumbnail?id=1E4LSu83ZlIJnTcVuDduG5ctRYi1q8j8X"><br>
+		<div id="footerctnt">
+		<!-- <div id="footergrid"> -->
+			<div class="footeritem">
+				<h2>Company</h2>
+				<br>
+				About<br>
+				Support<br>
+				Press<br>
+				Legal & Privacy
+			</div>
+			<div class="footeritem">
+				<h2>Quick Links</h2>
+				<br>
+				News<br>
+				Contact us<br>
+				FAQ
+			</div>
+			<div class="footeritem">
+				<h2>Social</h2>
+				<br>
+				Facebook<br>
+				Google +<br>
+				Twitter<br>
+				Instagram
+			</div>
+			<div class="footeritem">
+				<h2>Subscribe newsletter</h2><br>
+				<form action="">
+					<input type="text" name="text" placeholder ="Email">
+					<button type="submit" name="submit"><img src="images/icons/i-message_w.svg" height="28px"></button>
+				</form>
+			</div>
+		</div>
+		<!-- </div> -->
+		<div style="text-align: center; border-top: 1px solid white">
+		<p>COPYRIGHT &copy ALL RIGHTS RESERVED LATE 2018 | DESIGN AND DEVELOPMENT BY MILLERDIGITALDESIGN</p>
+	</div>
+	</div>
+</div>
+</body>
+</html>
